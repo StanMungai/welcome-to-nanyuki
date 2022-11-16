@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Bree Serif', serif;
+  color: #8d99ae;
+}
+
+.landing {
+  background-image: url("./images/mugithi.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+.top-headings {
+  padding: 70px;
+}
+
+.heading {
+  font-family: 'Syne Mono', monospace;
+  font-size: 50px;
+  color: #70e000;
+}
+
+#sub-heading {
+  font-family: 'Syne Mono', monospace;
+  color: #70e000;
+}
+
+.destinations {
+  display: flex;
+  justify-content: space-around;
+  margin: 150px 0;
+  /* background: linear-gradient(#f4a261, #e76f51); */
+}
+
+.attractions-card {
+  width: 400px;
+  height: 400px;
+  /* margin-left: 10px; */
+  /* background-size: cover; */
+}
+
+.image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* background-size: cover; */
+}
+
+.guide {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  /* padding: 150px; */
+  background: #d4a373;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 5px #bc6c25;
+}
+
+#guide-pic {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  padding: 30px;
+}
+
+.guide-profile {
+  width: 400px;
+  padding: 15px;
+}
+
+.footer {
+  background: linear-gradient(#e9edc9,#ccd5ae);
+  /* border: 1px solid red; */
+  padding: 150px;
+}
